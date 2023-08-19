@@ -1,5 +1,14 @@
 # AngularTodoApp
 
+# About this project
+
+This is a basic Todo List Application developed using Angular and Tailwind CSS.
+The live version of this application is hosted in Firebase.
+You can see it by clicking on this link :- https://sidhartha-angular-todo.web.app/
+
+If you want to try this for yourself clone this repo to your local.
+Thanks.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
 ## Development server
