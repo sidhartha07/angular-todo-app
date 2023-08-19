@@ -1,15 +1,15 @@
 <div class="mx-auto my-auto mt-6">
   <div class="text-center">
-    <h1 class="lg:p-4 font-extrabold lg:text-4xl">Todo List App</h1>
+    <h1 class="lg:p-4 font-extrabold lg:text-3xl sm:text-2xl">Todo List App</h1>
     <div class="sm:mt-2 lg:mt-4">
-      <div class="p-5 w-8/12 mx-auto my-auto">
+      <div class="p-5 w-9/12 mx-auto my-auto">
         <form
           #todoForm="ngForm"
           (ngSubmit)="addTask(todoForm)"
           class="flex justify-center"
         >
           <input
-            class="sm:w-10/12 md:w-11/12 focus:bg-slate-200 hover:bg-slate-200 lg:p-2 sm:p-1 sm:placeholder:text-xs md:placeholder:text-sm lg:placeholder:text-lg lg:font-bold sm:font-medium sm:text-sm text-sky-700 lg:text-lg rounded-l-lg lg:w-11/12"
+            class="sm:w-10/12 md:w-11/12 focus:bg-slate-200 hover:bg-slate-200 lg:p-3 sm:p-2 sm:placeholder:text-xs md:placeholder:text-sm lg:placeholder:text-lg lg:font-bold sm:font-medium sm:text-sm text-sky-700 lg:text-lg rounded-l-lg lg:w-11/12"
             type="text"
             placeholder="Enter the tasks..."
             name="taskName"
@@ -27,7 +27,7 @@
           *ngFor="let task of tasksArr; let i = index"
         >
           <input
-            class="sm:w-10/12 md:w-11/12 lg:p-2 sm:p-1 sm:placeholder:text-xs md:placeholder:text-sm lg:placeholder:text-lg lg:font-bold sm:font-medium sm:text-sm text-sky-700 lg:text-lg rounded-l-lg lg:w-11/12"
+            class="sm:w-10/12 md:w-11/12 lg:p-3 sm:p-2 sm:placeholder:text-xs md:placeholder:text-sm lg:placeholder:text-lg lg:font-bold sm:font-medium sm:text-sm text-sky-700 lg:text-lg rounded-l-lg lg:w-11/12"
             type="text"
             name="taskName"
             [value]="task"
